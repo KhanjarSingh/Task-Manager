@@ -6,6 +6,7 @@ import TaskForm from "./pages/TaskForm"
 import Navbar from "./components/Navbar"
 import { AuthProvider } from "./context/AuthContext"
 import ProtectedRoute from "./components/ProtectedRoute"
+import Profile from "./pages/Profile"
 
 function App() {
   return (
@@ -38,6 +39,14 @@ function App() {
                 element={
                   <ProtectedRoute>
                     <TaskForm />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/profile"
+                element={
+                  <ProtectedRoute>
+                    <Profile />
                   </ProtectedRoute>
                 }
               />

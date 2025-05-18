@@ -56,6 +56,12 @@ const Navbar = () => {
                 >
                   New Task
                 </Link>
+                <Link
+                  to="/profile"
+                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-colors"
+                >
+                  Profile
+                </Link>
                 <div className="ml-3 relative">
                   <div className="flex items-center">
                     <motion.div
@@ -141,6 +147,12 @@ const Navbar = () => {
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-purple-50"
                 >
                   New Task
+                </Link>
+                <Link
+                  to="/profile"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-purple-50"
+                >
+                  Profile
                 </Link>
                 <div className="px-3 py-2 flex items-center">
                   <div className="h-8 w-8 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 flex items-center justify-center text-white font-medium">
