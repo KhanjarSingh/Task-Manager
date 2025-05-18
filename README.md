@@ -62,24 +62,17 @@ PORT=5000
 # Start backend
 npm run dev
 
-
-prodoc/
-├── frontend/
-│   ├── assets/       # Images and static files
-│   ├── components/   # UI components
-│   ├── context/      # Global state
-│   ├── pages/        # Routes/pages
-│   ├── utils/        # Helper functions
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── backend/
-│   ├── controllers/  # Logic handlers
-│   ├── models/       # Mongoose schemas
-│   ├── routes/       # Express routes
-│   ├── middleware/   # JWT/auth helpers
-│   └── server.js
-
+```
+src/
+├── assets/        # Static assets like images and fonts
+├── components/    # Reusable UI components
+├── context/       # React context providers
+├── pages/         # Page components
+├── utils/         # Utility functions and helpers
+├── App.jsx        # Main application component
+├── main.jsx       # Application entry point
+└── index.css      # Global styles
+```
 
 🚀 Deployment
 ✅ Live: https://task-manager-seven-tau.vercel.app
