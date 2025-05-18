@@ -89,7 +89,7 @@ You can deploy the backend to Render or Railway, and use MongoDB Atlas for cloud
 | `npm run lint`    | Lint the codebase using ESLint |
 
 
-##👨‍💻 Author
+# 👨‍💻 Author
 - Parth Tandalwade
 - 🔗 [GitHub](https://github.com/KhanjarSingh)
 - 🔗 [Linkedin](https://www.linkedin.com/in/parth-tandalwade-295882323/)
