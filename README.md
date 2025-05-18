@@ -1,105 +1,105 @@
-# Prodoc Frontend
+# 📄 Taskster - Task Management Application
 
-A modern document management system built with React and Vite, featuring a beautiful UI and powerful functionality.
+**Prodoc** is a modern **MERN Stack Task Management App** designed to help users efficiently manage tasks with features like secure authentication, task categorization, filtering, and AI-powered enhancements. It combines beautiful UI, responsive design, and real-time functionality to deliver a seamless task management experience.
+
+---
+
+## 🧠 About the Project
+
+This project was built as part of a company assignment to demonstrate full-stack development capabilities using the MERN stack. It includes:
+- Frontend in **React + Vite**, styled with **Tailwind CSS** and **Ant Design**
+- Backend in **Node.js + Express**, with **MongoDB** as the database
+- Secure user authentication using **JWT**
+- AI features powered by **Google Generative AI**
+
+It showcases essential development skills such as RESTful API creation, state management, protected routing, and dynamic UI building. AI tools like ChatGPT and Gemini were also utilized to streamline development and troubleshooting.
+
+---
 
 ## 🚀 Features
 
-- Modern and responsive user interface
-- Document management and organization
-- Integration with Google's Generative AI
-- Real-time updates and interactions
-- Secure authentication system
-- Beautiful animations using Framer Motion
+- 🔐 **User Authentication** with JWT
+- 📝 **CRUD Operations** for tasks
+- 🗂️ **Task Categorization & Filtering**
+- 📅 **Due Date Management**
+- 🧠 **AI Assistance** using Google Generative AI (e.g., task suggestions)
+- 📱 **Responsive UI** (mobile-first design)
+- 🎨 **Beautiful Animations** with Framer Motion
+- ⚡ **Real-time UI Interactions**
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Framework:** React 19
-- **Build Tool:** Vite 6
-- **Styling:** 
-  - Tailwind CSS
-  - Ant Design
-  - Custom CSS
-- **State Management:** React Context API
-- **Routing:** React Router DOM 7
-- **HTTP Client:** Axios
-- **UI Components:** 
-  - Ant Design
-  - Heroicons
-- **Animation:** Framer Motion
-- **Date Handling:** date-fns
-- **AI Integration:** Google Generative AI
+### Frontend
+- **React 19** + **Vite 6**
+- **Tailwind CSS**, **Ant Design**, **Custom CSS**
+- **React Router DOM 7**, **Axios**
+- **Framer Motion**, **Heroicons**
+- **date-fns** for date handling
+- **Google Generative AI API**
 
-## 📦 Installation
+### Backend
+- **Node.js**, **Express.js**
+- **MongoDB** with **Mongoose**
+- **JWT Authentication**, **bcrypt**
+- **CORS**, **Helmet** for security
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd prodoc/frontend
-```
+---
 
-2. Install dependencies:
-```bash
+## 📦 Installation & Setup
+
+
+# In a new terminal, go to the backend
+cd ../backend
 npm install
-```
 
-3. Create a `.env` file in the root directory and add necessary environment variables:
-```env
-VITE_API_URL=your_backend_url
-VITE_GOOGLE_AI_KEY=your_google_ai_key
-```
+# Create .env in the backend directory
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
 
-4. Start the development server:
-```bash
+# Start backend
 npm run dev
-```
 
-## 🏗️ Project Structure
 
-```
-src/
-├── assets/        # Static assets like images and fonts
-├── components/    # Reusable UI components
-├── context/       # React context providers
-├── pages/         # Page components
-├── utils/         # Utility functions and helpers
-├── App.jsx        # Main application component
-├── main.jsx       # Application entry point
-└── index.css      # Global styles
-```
+prodoc/
+├── frontend/
+│   ├── assets/       # Images and static files
+│   ├── components/   # UI components
+│   ├── context/      # Global state
+│   ├── pages/        # Routes/pages
+│   ├── utils/        # Helper functions
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── backend/
+│   ├── controllers/  # Logic handlers
+│   ├── models/       # Mongoose schemas
+│   ├── routes/       # Express routes
+│   ├── middleware/   # JWT/auth helpers
+│   └── server.js
 
-## 🚀 Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+🚀 Deployment
+✅ Live: https://task-manager-seven-tau.vercel.app
 
-## 🔧 Configuration
+You can deploy the backend to Render or Railway, and use MongoDB Atlas for cloud DB.
 
-The project uses several configuration files:
 
-- `vite.config.js` - Vite configuration
-- `tailwind.config.js` - Tailwind CSS configuration
-- `postcss.config.js` - PostCSS configuration
-- `eslint.config.js` - ESLint configuration
+# Scripts
+| Command           | Description                    |
+| ----------------- | ------------------------------ |
+| `npm run dev`     | Start development server       |
+| `npm run build`   | Build for production           |
+| `npm run preview` | Preview the production build   |
+| `npm run lint`    | Lint the codebase using ESLint |
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+#👨‍💻 Author
+Parth Tandalwade
+🔗 [GitHub](https://github.com/KhanjarSingh)
+🔗 [Linkedin](https://www.linkedin.com/in/parth-tandalwade-295882323/)
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- Your Name - Initial work
-
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who have helped shape this project
-- Special thanks to the open-source community for the amazing tools and libraries
+✅ Submission Links
+GitHub Repo: [Github](https://github.com/KhanjarSingh/Task-Manager)
